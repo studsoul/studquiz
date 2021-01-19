@@ -27,7 +27,7 @@ saveHighScore = (e) => {
     highScores.splice(5);
 
     localStorage.setItem('highScores', JSON.stringify(highScores));
-    window.location.assign('./quiz.html');
+    window.location.assign('./index.html');
 
     //  console.log(highScores);
 };
